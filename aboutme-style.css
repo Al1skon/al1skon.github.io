@@ -1,0 +1,50 @@
+img{
+    height: 350px;
+    width: 450px;
+    border-radius: 10px;
+    border: 2px solid rgb(46, 204, 113);
+    padding: 5px;
+}
+span{
+    font-size: 20px;
+}
+body{
+    background-image: url(bground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    margin: 0 0 0 70px;
+    
+}
+h1, p, td, em{
+    color: rgb(5, 129, 230);
+    text-shadow: 2px 2px 2px black;
+}
+strong{
+    color: rgba(50, 152, 165, 0.76);
+    text-shadow: -3px -3px 5px rgb(0, 0, 0);
+}
+li{
+    color: rgba(255, 255, 255, 0.76);
+    margin: 10px 0 0 10px;
+    text-shadow: 2px 2px 3px rgb(5, 0, 5);
+}
+
+
+.header{
+    text-align: center;
+    margin: 70px 0 0 0;
+}
+h1, table{
+    margin: 0 0 0 5px;
+}
+a{
+    color: chocolate;
+    text-decoration: none;
+}
+hr{
+    border-color: red;
+}
+p::first-letter{
+    font-size: 20px;
+}
